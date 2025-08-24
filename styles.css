@@ -50,6 +50,12 @@ a {
   text-decoration: none;
 }
 
+/* ### UTILITY CLASS ### */
+
+.hide {
+  display: none;
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
