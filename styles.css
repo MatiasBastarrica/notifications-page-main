@@ -12,4 +12,8 @@
   --gray-500: hsl(219, 14%, 63%);
   --gray-600: hsl(219, 12%, 42%);
   --navy-950: hsl(224, 21%, 14%);
+  /* # TYPOGRAPHY # */
+  --ff-jakarta: "Plus Jakarta Sans", sans-serif;
+  --fw-500: 500;
+  --fw-800: 800;
 }
