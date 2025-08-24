@@ -55,4 +55,121 @@ a {
 body {
   font-family: var(--ff-jakarta);
   font-weight: var(--fw-500);
+  color: #5f636c;
+  padding: 1.5rem 1rem;
 }
+
+/* ### NOTIFICATIONS MAIN ### */
+
+.notifications__header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.notifications__header button {
+  cursor: pointer;
+  color: var(--gray-600);
+  font-size: 0.925rem;
+}
+
+h1,
+.user {
+  color: var(--navy-950);
+  font-weight: var(--fw-800);
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.unread-notifications {
+  background-color: var(--blue-950);
+  color: var(--white);
+  margin-inline-start: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.notifications-section a {
+  color: var(--blue-950);
+  font-weight: var(--fw-800);
+}
+
+.notifications-section a:visited {
+  color: #5c6069;
+}
+
+.notification__container {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.notification-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+  /* background-color: deepskyblue; */
+  /* color: #fff; */
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.notification__img {
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.notification__content {
+  width: calc(100% - (80px + 2rem));
+  flex-grow: 1;
+}
+
+.notification__messagge {
+  width: calc(100% - (40px + 1rem));
+  margin-inline-start: auto;
+  color: var(--gray-600);
+  border: 1px solid #e6e7e9;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+}
+
+.notification__picture {
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.description {
+  margin-inline-start: 0.2rem;
+}
+
+.description a {
+  margin-inline-start: 0.2rem;
+}
+
+.date {
+  color: #999da9;
+  margin-top: 0.1rem;
+}
+
+.unread {
+  background-color: #f6fafd;
+}
+
+.unread-icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--red-500);
+  border-radius: 200px;
+  margin-inline-start: 0.3rem;
+  padding-bottom: 0.1rem;
+}
+
+/* .notifications-section li {
+  background-color: var(--navy-50);
+} */
