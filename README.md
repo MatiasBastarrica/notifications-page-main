@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/notifications-page-main-mb-SO1ntUAPgG)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/notifications-page-main/)
 
 ## My process
